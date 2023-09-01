@@ -5,3 +5,4 @@ edition = "2021"
 description = "Drawing the Mandelbrot set."
 
 [dependencies]
+eframe = "0.22.0"
