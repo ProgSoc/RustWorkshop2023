@@ -1,0 +1,7 @@
+[package]
+name = "lvl3-threads"
+version = "0.1.0"
+edition = "2021"
+description = "Program speed up with threads."
+
+[dependencies]
