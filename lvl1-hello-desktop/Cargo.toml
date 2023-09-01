@@ -5,3 +5,4 @@ edition = "2021"
 description = "Opening a desktop window with egui, and painting on the screen."
 
 [dependencies]
+eframe = "0.22.0"
