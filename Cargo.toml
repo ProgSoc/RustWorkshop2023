@@ -3,8 +3,7 @@ resolver = "2"
 members = [
   "lvl0-welcome",
   "lvl1-hello-desktop",
-  "lvl2-paint",
-  "lvl3-fractal",
-  "lvl4-threads",
-  "lvl5-net",
+  "lvl2-fractal",
+  "lvl3-threads",
+  "lvl4-net",
 ]
