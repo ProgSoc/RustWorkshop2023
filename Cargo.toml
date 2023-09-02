@@ -6,4 +6,5 @@ members = [
   "lvl2-fractal",
   "lvl3-threads",
   "lvl4-net",
+  "lang-features",
 ]
