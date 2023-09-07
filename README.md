@@ -9,6 +9,6 @@
 
 * Introduction
 * Hello, World!
+* Language Features
 * Desktop Programming
-* Workshop Project
-* What Else?
+* Discussion
