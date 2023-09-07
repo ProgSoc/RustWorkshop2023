@@ -1,7 +1,0 @@
-[package]
-name = "lvl4-net"
-version = "0.1.0"
-edition = "2021"
-description = "Network programming; or, a toy render farm."
-
-[dependencies]

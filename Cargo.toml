@@ -1,10 +1,8 @@
 [workspace]
 resolver = "2"
 members = [
-  "lvl0-welcome",
-  "lvl1-hello-desktop",
-  "lvl2-fractal",
-  "lvl3-threads",
-  "lvl4-net",
+  "welcome",
+  "intro-desktop",
+  "fractal",
   "lang-features",
 ]

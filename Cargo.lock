@@ -900,6 +900,13 @@ dependencies = [
 ]
 
 [[package]]
+name = "fractal"
+version = "0.1.0"
+dependencies = [
+ "eframe",
+]
+
+[[package]]
 name = "futures-core"
 version = "0.3.28"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1152,6 +1159,13 @@ dependencies = [
 ]
 
 [[package]]
+name = "intro-desktop"
+version = "0.1.0"
+dependencies = [
+ "eframe",
+]
+
+[[package]]
 name = "io-lifetimes"
 version = "1.0.11"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1271,35 +1285,6 @@ name = "log"
 version = "0.4.20"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "b5e6163cb8c49088c2c36f57875e58ccd8c87c7427f7fbd50ea6710b2f3f2e8f"
-
-[[package]]
-name = "lvl0-welcome"
-version = "0.1.0"
-dependencies = [
- "input-macro",
-]
-
-[[package]]
-name = "lvl1-hello-desktop"
-version = "0.1.0"
-dependencies = [
- "eframe",
-]
-
-[[package]]
-name = "lvl2-fractal"
-version = "0.1.0"
-dependencies = [
- "eframe",
-]
-
-[[package]]
-name = "lvl3-threads"
-version = "0.1.0"
-
-[[package]]
-name = "lvl4-net"
-version = "0.1.0"
 
 [[package]]
 name = "malloc_buf"
@@ -2427,6 +2412,13 @@ dependencies = [
  "raw-window-handle",
  "url",
  "web-sys",
+]
+
+[[package]]
+name = "welcome"
+version = "0.1.0"
+dependencies = [
+ "input-macro",
 ]
 
 [[package]]

@@ -1,5 +1,5 @@
 [package]
-name = "lvl2-fractal"
+name = "fractal"
 version = "0.1.0"
 edition = "2021"
 description = "Drawing the Mandelbrot set."
