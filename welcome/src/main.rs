@@ -5,6 +5,8 @@ fn get_thing() -> i32 {
 }
 
 /// Walk-through of a Wikipedia example, no-boilerplate example and more
+/// * https://en.wikipedia.org/wiki/Rust_(programming_language)#Syntax_and_features
+/// * https://www.youtube.com/watch?v=CJtvnepMVAU&pp=ygUMcnVzdCBpcyBlYXN5
 fn main() {
     // Activity
     // Compile a Rust program on your machine.
