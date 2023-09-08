@@ -115,11 +115,17 @@ fn main() -> eframe::Result<()> {
             .frame(egui::Frame::none().inner_margin(0.0))
             .show(ctx, |ui| {
                 let texture = texture.get_or_insert_with(|| {
-                    let mut image = egui::ColorImage::new([1024, 1024], egui::Color32::BLACK);
+                    let size = 512;
+                    let offset_x = -0.5;
+                    let offset_y = 0.0;
+                    let mut image = egui::ColorImage::new([size, size], egui::Color32::BLACK);
                     let width = image.width();
                     for (y, row) in image.pixels.chunks_mut(width).enumerate() {
                         for (x, pixel) in row.iter_mut().enumerate() {
-                            let c = Complex { re: (x as f32 - 512.0) / 256.0 - 0.5, im: (y as f32 - 512.0) / 256.0 };
+                            let c = Complex {
+                                re: (x as f32 - size as f32 / 2.0) / (size as f32 / 4.0) + offset_x,
+                                im: (y as f32 - size as f32 / 2.0) / (size as f32 / 4.0) + offset_y,
+                            };
                             let mut z = c;
                             let mut i: u8 = 0;
                             while i < 255 && z.abs() < 4.0 {
@@ -131,7 +137,9 @@ fn main() -> eframe::Result<()> {
                     }
                     ctx.load_texture("colour-square", image, Default::default())
                 });
-                ui.image(texture, ui.available_size());
+                ui.centered_and_justified(|ui| {
+                    ui.image(texture, egui::Vec2::splat(ui.available_size().min_elem()));
+                });
             });
     })
 }
