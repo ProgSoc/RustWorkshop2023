@@ -1,0 +1,10 @@
+[package]
+name = "hello-desktop"
+version = "0.1.0"
+edition = "2021"
+description = "Using Cargo and external crates."
+
+[dependencies]
+input-macro = "0.2.0"
+rand = "0.8.5"
+toml = "0.7.6"
