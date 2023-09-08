@@ -2,7 +2,7 @@
 resolver = "2"
 members = [
   "welcome",
-  "intro-desktop",
+  "hello-desktop",
   "fractal",
   "lang-features",
 ]

@@ -1,8 +1,0 @@
-[package]
-name = "intro-desktop"
-version = "0.1.0"
-edition = "2021"
-description = "Opening a desktop window with egui, and painting on the screen."
-
-[dependencies]
-eframe = "0.22.0"

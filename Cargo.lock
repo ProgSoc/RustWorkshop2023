@@ -1086,6 +1086,15 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "2c6201b9ff9fd90a5a3bac2e56a830d0caa509576f0e503818ee82c181b3437a"
 
 [[package]]
+name = "hello-desktop"
+version = "0.1.0"
+dependencies = [
+ "input-macro",
+ "rand",
+ "toml",
+]
+
+[[package]]
 name = "hermit-abi"
 version = "0.3.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1156,15 +1165,6 @@ dependencies = [
  "js-sys",
  "wasm-bindgen",
  "web-sys",
-]
-
-[[package]]
-name = "intro-desktop"
-version = "0.1.0"
-dependencies = [
- "input-macro",
- "rand",
- "toml",
 ]
 
 [[package]]
